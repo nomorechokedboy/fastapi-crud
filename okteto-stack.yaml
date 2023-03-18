@@ -6,7 +6,7 @@ services:
     environment:
       - DB_HOST=${HOST}
   mongodb:
-    image: bitnami/mongodb:latest
+    image: mongo:latest
     ports:
       - 27017
     volumes:
